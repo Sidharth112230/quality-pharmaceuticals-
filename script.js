@@ -184,7 +184,7 @@ const products = [
     },
     {
         "name": "Femina",
-        "price": "₹500",
+        "price": "₹50",
         "desc": "Boosts immunity and overall health. Our Femina capsules contain 500mg of ascorbic acid with added bioflavonoids for enhanced absorption. This powerful antioxidant supports immune system function, collagen synthesis, and protects cells from oxidative stress. Ideal for daily wellness and immune defense.",
         "icon": "fas fa-capsules",
         "images": [
@@ -231,7 +231,7 @@ const products = [
         "quantities": [
             {
                 "label": "10CAPS",
-                "price": "₹500"
+                "price": "₹50"
             }
         ]
     },
