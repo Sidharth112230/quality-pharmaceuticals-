@@ -184,7 +184,7 @@ const products = [
     },
     {
         "name": "Femina",
-        "price": "₹50",
+        "price": "₹500",
         "desc": "Boosts immunity and overall health. Our Femina capsules contain 500mg of ascorbic acid with added bioflavonoids for enhanced absorption. This powerful antioxidant supports immune system function, collagen synthesis, and protects cells from oxidative stress. Ideal for daily wellness and immune defense.",
         "icon": "fas fa-capsules",
         "images": [
@@ -231,7 +231,7 @@ const products = [
         "quantities": [
             {
                 "label": "10CAPS",
-                "price": "₹50"
+                "price": "₹500"
             }
         ]
     },
@@ -1549,7 +1549,7 @@ if (productModal) {
                     ${imgSrc ? `<img src="${imgSrc}" alt="${product.name}" style="width:100%;height:100%;object-fit:contain;padding:1rem;">` : `<i class="${product.icon}" style="font-size:3rem;color:var(--primary-teal);"></i>`}
                 </div>
                 <div class="product-info">
-                    <div class="product-price">${product.quantities && product.quantities.length ? product.quantities[0].price : product.price}</div>
+                    <div class="product-price">${product.price}</div>
                     <h4>${product.name}</h4>
                     <p>${product.desc.substring(0,60)}...</p>
                 </div>
