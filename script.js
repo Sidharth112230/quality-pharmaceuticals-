@@ -115,7 +115,7 @@ if (contactForm) {
 const products = [
     {
         "name": "QuasoCOL",
-        "price": "₹10",
+        "price": "₹100",
         "desc": "This proprietary Ayurvedic medicine is a comprehensive herbal formula primarily indicated for addressing menstrual disorders, including painful, irregular, or delayed cycles. Enriched with a potent blend of traditional ingredients such as Ashoka Bark, Kala Jeera, and Arjuna Bark, the syrup is formulated to alleviate physical weakness, anemia, and pelvic pain. Designed for Improved Quality, this health tonic serves as a restorative supplement to support reproductive health and overall vitality.",
         "icon": "fas fa-capsules",
         "images": [
@@ -1549,7 +1549,7 @@ if (productModal) {
                     ${imgSrc ? `<img src="${imgSrc}" alt="${product.name}" style="width:100%;height:100%;object-fit:contain;padding:1rem;">` : `<i class="${product.icon}" style="font-size:3rem;color:var(--primary-teal);"></i>`}
                 </div>
                 <div class="product-info">
-                    <div class="product-price">${product.price}</div>
+                    <div class="product-price">${product.quantities && product.quantities.length ? product.quantities[0].price : product.price}</div>
                     <h4>${product.name}</h4>
                     <p>${product.desc.substring(0,60)}...</p>
                 </div>
