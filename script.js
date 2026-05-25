@@ -1434,29 +1434,6 @@ const products = [
                 "price": "₹100"
             }
         ]
-    },
-    {
-        "name": "wsv",
-        "price": "sdvz",
-        "desc": "gwesvdzx wgsvdzx",
-        "icon": "fas fa-capsules",
-        "images": [],
-        "ingredients": [
-            {
-                "name": "sefdz",
-                "img": "",
-                "desc": ""
-            }
-        ],
-        "quantities": [
-            {
-                "label": "f",
-                "price": "f",
-                "images": [
-                    "f"
-                ]
-            }
-        ]
     }
 ];
 
